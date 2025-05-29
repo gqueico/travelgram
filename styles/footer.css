@@ -1,10 +1,13 @@
 footer {
   display: flex;
-  column-gap: 24px;
+  align-items: center;
+  justify-content: space-between;
   padding-block: 24px;
   font: 400 14px/150% var(--font-family);
 }
 
-footer span:nth-child(1) {
-  flex: 1;
+footer ul {
+  display: flex;
+  column-gap: 24px;
+  list-style: none;
 }
